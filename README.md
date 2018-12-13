@@ -3,7 +3,7 @@
 ### CareerFoundry.com > Full Stack web developer eLearning course
 
 ### Live demo
-[https:site.com](https://sapo.pt)
+[https://gomesweb.netlify.com/](https://gomesweb.netlify.com/)
 This is the final submission for the conclusion of *Achievement #1*.  
 Main goals are the following topics:  
 - Hero Header with Image Carousel that features main marketing message;
