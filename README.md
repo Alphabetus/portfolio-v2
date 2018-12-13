@@ -4,7 +4,7 @@
 
 ### Live demo
 [https://gomesweb.netlify.com/](https://gomesweb.netlify.com/)  
-  
+
 This is the final submission for the conclusion of *Achievement #1*.  
 Main goals are the following topics:  
 - Hero Header with Image Carousel that features main marketing message;
@@ -14,6 +14,9 @@ Main goals are the following topics:
 - FAQ section containing additional information in an Accordion;
 
 ### Changelog
+
+#### rev3
+- Fixed accordion bug;
 
 #### rev2
 - Adjustment on carousel min-height;
