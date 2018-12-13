@@ -1,5 +1,6 @@
 # Portfolio -v2
-## Responsive portfolio website with bootstrap > CareerFoundry.com > Full Stack web developer eLearning course
+## Responsive portfolio website with bootstrap
+### CareerFoundry.com > Full Stack web developer eLearning course
 This is the final submission for the conclusion of *Achievement #1*.  
 Main goals are the following topics:  
 - Hero Header with Image Carousel that features main marketing message;
