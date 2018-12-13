@@ -11,3 +11,13 @@ Main goals are the following topics:
 - Portfolio of work with images and description of at least 2 work samples;
 - Contact information with glyphicons for Email, Phone, Address, etc.;
 - FAQ section containing additional information in an Accordion;
+
+### Changelog
+#### rev1
+- Initial commit;
+
+#### rev2
+- Adjustment on carousel min-height;
+- Adjust contact font-size;
+- Adjust portfolio images;
+- Fixed background on menu when running on small devices; 

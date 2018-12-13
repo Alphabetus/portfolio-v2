@@ -105,10 +105,37 @@ ul{
   transition: all 600ms ease-in-out;
   -webkit-transition: all 600ms ease-in-out;
 }
+#mobileIcon{
+  color: var(--color-button-01);
+}
+#mobileIcon:hover{
+  color: var(--color-button-02);
+}
+#menu .collapsing{
+  background-color: var(--color-dark-01);
+  padding-left: 1vw;
+  margin-left: auto;
+  margin-right: 0;
+  min-width: 35vw;
+  max-width: 60vw;
+  /* fx */
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+}
+#menu .show{
+  background-color: var(--color-dark-01);
+  padding-left: 5vw;
+  margin-left: auto;
+  margin-right: 0;
+  min-width: 35vw;
+  max-width: 60vw;
+  /* fx */
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+}
 /* LANDING AREA STYLE ########################################################## */
 #home{
   /* background-color: var(--color-transparent-dark-01); */
-  min-height: 85vh;
   padding: 0!important;
 }
 #home .carousel-control-prev:hover, #home .carousel-control-next:hover{
@@ -256,6 +283,7 @@ ul{
 #portfolio img{
   height: 35vh;
   width: 60vw;
+  margin-top: 3vh;
 }
 #portfolio h4{
   padding-bottom: 7vh;
