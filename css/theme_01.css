@@ -1,0 +1,386 @@
+/* THEME 01 > DEFAULT  */
+:root{
+  /* COLOR VARS  */
+  --color-dark-01: #211F1F;
+  --color-dark-02: #394D58;
+  --color-light-01: #F4F4EC;
+  --color-light-02: #dbdbd4;
+  --color-alert-01: #9C5F63;
+  --color-button-01: #8D827E;
+  --color-button-02: #7C8F66;
+  /* DEFAULT TEXT COLOR  */
+  --text-color-p: #3d3f42;
+  --text-color-h: #394D58;
+  /* COLOR > NON OPAQUE  */
+  --color-transparent-dark-01: rgba(33,31,31, 0.15);
+  --color-transparent-dark-02: rgb(193, 217, 255, 0.35);
+  --color-transparent-light-01: rgba(244,244,236,0.75);
+  /* SHADOW EFFECTS  */
+  --shadow-01: 0.2em 0.2em rgba(0,0,0,0.15);
+  --shadow-02: 0.4em 0.4em rgba(0,0,0,0.35);
+  /* IMAGE VARS  */
+  --img-banner-00: url("../img/banner-00.png");
+  --img-banner-01: url("../img/banner-01.png");
+  --img-banner-02: url("../img/banner-02.png");
+  --img-banner-03: url("../img/banner-03.png");
+  --img-banner-04: url("../img/banner-04.jpg");
+  /* FONT VARS */
+  --font-h: 'Ubuntu', sans-serif;
+  --font-p: 'Abel', sans-serif;
+}
+/* BODY STYLING */
+html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%!important;
+}
+body{
+  position: relative;
+  background-color: var(--color-light-01);
+  color: var(--color-dark-01);
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%!important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0!important;
+  font-family: var(--font-p);
+}
+.header-fluid{
+  padding-left: 10%;
+}
+.container{
+  width: 80%;
+}
+.container-fluid{
+  width: 100%!important;
+  margin: 0;
+  padding: 0;
+}
+.content{
+  margin-top: 15vh;
+}
+.content-top{
+  margin-top: 10vh;
+}
+.landing{
+  padding-top: 12vh;
+}
+.forceTop{
+  margin-top: 5vh;
+}
+/* PARAGRAPH STYLING  */
+a:hover{
+  text-decoration: none;
+}
+h1,h2,h3,h4{
+  font-family: var(--font-h);
+  color: var(--text-color-h);
+}
+p{
+  font-family: var(--font-p);
+  color: var(--text-color-p);
+  text-align: justify;
+}
+ul{
+  font-family: var(--font-p);
+}
+#nav a{
+  font-family: var(--font-h);
+}
+/* NAVIGATION STYLING  ########################################################## */
+#menu{
+  background-color: var(--color-dark-01);
+  height: 10vh;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#menu a{
+  color: var(--color-button-01);
+}
+#menu .active, #menu a:hover{
+  color: var(--color-button-02);
+  /* fx */
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+}
+/* LANDING AREA STYLE ########################################################## */
+#home{
+  /* background-color: var(--color-transparent-dark-01); */
+  min-height: 85vh;
+  padding: 0!important;
+}
+#home .carousel-control-prev:hover, #home .carousel-control-next:hover{
+  background-color: var(--color-transparent-dark-01);
+}
+#home .fas{
+  color: var(--color-dark-01);
+}
+.slideBanner{
+  width: 100vw;
+  max-height: 90vh;
+}
+.carousel-caption{
+  /* background-color: red; */
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  width: 60vw;
+}
+#slide01-button{ /* independent positioning */
+  top: 8vh;
+  left: 46vw;
+}
+#slide02-button{ /* independent positioning */
+  top: 45vh;
+  left: -25vw;
+}
+.allSlideButtons{
+  font-size: 2em;
+  min-width: 15vw;
+  position: relative;
+  /* fx */
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+}
+.allSlideButtons:hover{
+  transform: scale(1.5);
+  /* fx */
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+}
+/* ABOUT AREA STYLE ########################################################## */
+#about{
+  min-height: 85vh;
+}
+#about-description{
+  font-size: 1.1em;
+  font-weight: 900;
+  padding: 3vh;
+  background-color: var(--color-light-02);
+}
+#about img{
+  /* fx */
+  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 450ms ease-in-out;
+}
+#about img:hover{
+  transform: translateY(-5%) scale(0.7) rotate(-355deg);
+  border-radius: 5%!important;
+  box-shadow: var(--shadow-02);
+}
+/* SERVICES AREA STYLE ########################################################## */
+#services{
+  min-height: 85vh;
+}
+#serviceRow{
+  /* background-color: red; */
+  padding: 4vh 0;
+}
+#serviceRow ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  font-weight: 900;
+}
+.serviceIMG{
+  height: 25vh;
+  /* fx */
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+}
+.serviceIMG:hover{
+  border-width: 0.15em;
+  border-radius: 0!important;
+  box-shadow: 1vh 1vw rgba(0,0,0,0.15);
+  transform: scale(1.2) rotate(15deg);
+  /* fx */
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+}
+#serviceRow .btn-book-now{
+  /* fx */
+  transition: all 350ms ease-in-out;
+  -webkit-transition: all 350ms ease-in-out;
+}
+#serviceRow .btn-book-now:hover{
+  transform: scale(2.0) translateY(25%);
+  /* fx */
+  transition: all 350ms ease-in-out;
+  -webkit-transition: all 350ms ease-in-out;
+}
+/* PORTFOLIO AREA STYLE ########################################################## */
+#portfolio{
+  min-height: 85vh;
+  background-image: var(--img-banner-00);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 5vh;
+}
+#oralPortfolio{
+  background-color: var(--color-transparent-light-01);
+  padding: 3vh 5vw;
+  font-weight: 900;
+  font-size: 1.2em;
+  min-height: 85vh;
+}
+#landResumee{
+  padding-top: 10vh!important ;
+}
+#portfolio > .header-fluid{
+  margin: 0 5vw 0 5vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: var(--color-transparent-light-01);
+}
+#portfolio > .row{
+  margin-top: 5vh;
+  padding: 3vh 5vw;
+}
+#portfolio .img-fluid{
+  transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+}
+#portfolio .img-fluid:hover{
+  position: relative;
+  z-index: 100!important;
+  transform: rotate(15deg) scale(1.2) translateY(-15%);
+  border-radius: 1.6%!important;
+  border-width: 0.15em;
+  box-shadow: var(--shadow-02);
+}
+#portfolio img{
+  height: 35vh;
+  width: 60vw;
+}
+#portfolio h4{
+  padding-bottom: 7vh;
+}
+#portfolio .goDown{
+  color: var(--color-dark-02);
+  font-size: 1.5em;
+}
+/* CONTACT AREA STYLE ########################################################## */
+#contact-description{
+  margin: auto;
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 3vh 10vw;
+  background-color: var(--color-light-02);
+}
+#contact-avatar > img{
+  max-height: 35vh;
+  margin-bottom: 5vh;
+}
+/* typo override  */
+#contact h3{
+  font-family: var(--font-p);
+  font-weight: 900;
+  letter-spacing: 0.2em;
+}
+#contact .cet{
+  font-size: 0.5em;
+  vertical-align: text-top;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+#contact img{
+  /* fx */
+  transition: all 5.5s ease-in-out;
+  -webkit-transition: all 5.5s ease-in-out;
+}
+#contact img:hover{
+  transform: rotate(675deg);
+  /* fx */
+  transition: all 5.5s ease-in-out;
+  -webkit-transition: all 5.5s ease-in-out;
+}
+/* FAQ AREA STYLE ########################################################## */
+#faq{
+  min-height: 85vh;
+}
+#faq #accordion{
+  margin: 5vh auto;
+  width: 80vw;
+}
+#faq .card-header{
+  font-size: 1.2em;
+  background-color: var(--color-light-02);
+  font-weight: 900;
+  font-family: var(--font-h);
+}
+#faq .card{
+  font-size: 1.2em;
+  background-color: rgba(255,255,255,0.75);
+  font-family: var(--font-p);
+}
+/* FOOTER AREA STYLE ########################################################## */
+#footer{
+  position: fixed;
+  bottom: 0;
+  max-height: 3vh;
+  /* width: 100%; */
+  font-size: 0.8em;
+  background-color: var(--color-dark-01);
+  text-align: right;
+  padding-right: 5vw;
+}
+#footer a{
+  color: var(--color-button-01);
+}
+#footer .active, #footer a:hover{
+  color: var(--color-button-02);
+  /* fx */
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-in-out;
+}
+/* BUTTONS STYLING ########################################################## */
+.btn-info{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--color-button-02);
+  border-color: var(--color-button-02);
+}
+.btn-info:hover{
+  background-color: var(--color-button-01);
+  border-color: var(--color-button-01);
+}
+.goDown{
+  font-size: 1.5em;
+  color: var(--color-button-01);
+  /* fx */
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+}
+.goDown:hover{
+  font-size: 1.3em;
+  color: var(--color-button-02);
+  /* fx */
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+}
+/* SPECIFIC BORDER HANDLING  */
+.border-01{
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: var(--color-dark-02);
+}
+.border-02{
+  border-style: solid;
+  border-radius: 0 1.5em 0 0;
+  border-width: 0.07em;
+  border-color: var(--color-dark-02);
+}
+.border-03{
+  border-style: solid;
+  border-radius: 0 1.5em 0 0;
+  border-width: 0.1em;
+  border-color: var(--color-dark-02);
+}
+/* SPECIFIC SHADOW HANDLING  */
+.shadow-01{
+  box-shadow: var(--shadow-01);
+}
