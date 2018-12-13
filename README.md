@@ -13,11 +13,12 @@ Main goals are the following topics:
 - FAQ section containing additional information in an Accordion;
 
 ### Changelog
-#### rev1
-- Initial commit;
 
 #### rev2
 - Adjustment on carousel min-height;
 - Adjust contact font-size;
 - Adjust portfolio images;
-- Fixed background on menu when running on small devices; 
+- Fixed background on menu when running on small devices;
+
+#### rev1
+- Initial commit;
