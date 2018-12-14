@@ -15,6 +15,10 @@ Main goals are the following topics:
 
 ### Changelog
 
+#### rev4
+- Fixed smooth scroll on services area;
+- Fixed unwanted margin error on mobile.
+
 #### rev3
 - Fixed accordion bug;
 
