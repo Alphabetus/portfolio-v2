@@ -15,20 +15,23 @@ Main goals are the following topics:
 
 ### Changelog
 
+#### rev6
+- Fix html lang tag
+
 #### rev5
-- Fixed unwanted margin error on mobile;
+- Fix unwanted margin error on mobile.
 
 #### rev4
-- Fixed smooth scroll on services area;
+- Fix smooth scroll on services area.
 
 #### rev3
-- Fixed accordion bug;
+- Fix accordion bug.
 
 #### rev2
-- Adjustment on carousel min-height;
-- Adjust contact font-size;
-- Adjust portfolio images;
-- Fixed background on menu when running on small devices;
+- Adjustment on carousel min-height.
+- Adjust contact font-size.
+- Adjust portfolio images.
+- Fix background on menu when running on small devices.
 
 #### rev1
-- Initial commit;
+- Initial commit.
